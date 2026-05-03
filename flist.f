@@ -1,0 +1,6 @@
+design/mem_if.sv
+design/my_mem.sv
+pkg/mem_pkg.sv
+verif/test.sv
+verif/top.sv
+

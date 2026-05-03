@@ -1,0 +1,44 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "mem_if": [
+        "mem_if",
+        "CVSsc",
+        "module",
+        2
+    ],
+    "my_mem": [
+        "my_mem",
+        "VEeZE",
+        "module",
+        7
+    ],
+    "mem_pkg": [
+        "mem_pkg",
+        "B3GI2",
+        "module",
+        3
+    ],
+    "test": [
+        "test",
+        "x9Hvb",
+        "module",
+        4
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

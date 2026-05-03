@@ -1,0 +1,28 @@
+simSetSimulator "-vcssv" -exec "/home/st88/HW4/simv" -args
+debImport "-dbdir" "/home/st88/HW4/simv.daidir"
+debLoadSimResult /home/st88/HW4/waves.fsdb
+wvCreateWindow
+verdiWindowResize -win $_Verdi_1 "318" "82" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcHBSelect "top.intf" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "top.intf" -win $_nTrace1
+srcSetScope "top.intf" -delim "." -win $_nTrace1
+srcHBSelect "top.intf" -win $_nTrace1
+srcSignalViewSelect "top.intf.clk"
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcSignalViewSelect "top.intf.clk" "top.intf.read"
+srcSignalViewSelect "top.intf.clk" "top.intf.read" "top.intf.write"
+srcSignalViewSelect "top.intf.clk" "top.intf.read" "top.intf.write" \
+           "top.intf.addr\[15:0\]"
+srcSignalViewSelect "top.intf.clk" "top.intf.read" "top.intf.write" \
+           "top.intf.addr\[15:0\]" "top.intf.data_in\[7:0\]"
+srcSignalViewSelect "top.intf.clk" "top.intf.read" "top.intf.write" \
+           "top.intf.addr\[15:0\]" "top.intf.data_in\[7:0\]" \
+           "top.intf.data_out\[7:0\]"
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcSelect -win $_nTrace1 -range {7 8 1 1 1 1} -backward
+srcDeselectAll -win $_nTrace1
+debExit

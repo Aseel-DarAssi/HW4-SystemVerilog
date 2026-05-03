@@ -1,0 +1,117 @@
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06-SP2_Full64; Runtime version T-2022.06-SP2_Full64;  May  3 13:14 2026
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06-SP2, Linux x86_64/64bit, 11/22/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'waves.fsdb'
+*Verdi* : Begin traversing the scope (top), layer (0).
+*Verdi* : End of traversing.
+20150 0
+20350 8f
+20550 8f
+20750 8f
+20950 8f
+21150 8f
+21350 8f
+21550 8f
+21750 8f
+21950 8f
+22150 8f
+22350 8f
+22550 8f
+22750 8f
+22950 8f
+23150 8f
+23350 8f
+23550 8f
+23750 8f
+23950 8f
+24150 8f
+24350 8f
+24550 8f
+24750 8f
+24950 8f
+25150 8f
+25350 8f
+25550 8f
+25750 8f
+25950 8f
+26150 8f
+26350 8f
+26550 8f
+26750 8f
+26950 8f
+27150 8f
+27350 8f
+27550 8f
+27750 8f
+27950 8f
+28150 8f
+28350 8f
+28550 8f
+28750 8f
+28950 8f
+29150 8f
+29350 8f
+29550 8f
+29750 8f
+29950 8f
+30150 8f
+30350 8f
+30550 8f
+30750 8f
+30950 8f
+31150 8f
+31350 8f
+31550 8f
+31750 8f
+31950 8f
+32150 8f
+32350 8f
+32550 8f
+32750 8f
+32950 8f
+33150 8f
+33350 8f
+33550 8f
+33750 8f
+33950 8f
+34150 8f
+34350 8f
+34550 8f
+34750 8f
+34950 8f
+35150 8f
+35350 8f
+35550 8f
+35750 8f
+35950 8f
+36150 8f
+36350 8f
+36550 8f
+36750 8f
+36950 8f
+37150 8f
+37350 8f
+37550 8f
+37750 8f
+37950 8f
+38150 8f
+38350 8f
+38550 8f
+38750 8f
+38950 8f
+39150 8f
+39350 8f
+39550 8f
+39750 8f
+39950 8f
+39951 1
+$finish called from file "verif/test.sv", line 80.
+$finish at simulation time                39961
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 39961
+CPU Time:      0.400 seconds;       Data structure size:   0.0Mb
+Sun May  3 13:14:10 2026
